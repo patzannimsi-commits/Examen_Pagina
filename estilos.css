@@ -2,6 +2,59 @@ body{
     background-color: white;
 }
 
-.barra-nav{
+.barra-nav2{
     background-color: #0404e2;
+    height: 50px;
+    
+}
+
+.barra-nav2 p{
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+    
+}
+
+.barra-nav{
+    background-color: white;
+}
+
+img{
+    margin: 0 auto;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+li{
+    font-size: 32px;
+    list-style: none;
+}
+ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.Busqueda{
+    display: flex;
+    width: 10%;
+    background-color: rgb(255, 255, 255);
+    height: 3vh;
+    border-radius: 100px;
+}
+
+input{
+    display: inline-block;
+    border-radius: 25px;
+    height: 100%;
+    outline: none;
+    background: transparent;
+    opacity: 45%;
+}
+
+li a:hover{
+    padding: 5px;
 }
